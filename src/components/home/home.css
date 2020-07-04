@@ -1,0 +1,119 @@
+.container-App { 
+    height: 100vh;
+}
+
+.row-height { 
+    height: 100%;
+}
+
+.logoPaddingTop {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.logoImg { 
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.homeCover { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../assets/img/lapcode.jpg);
+}
+
+.emptySpaceInSideBar {
+    height: 120px;
+}
+
+.seperator { 
+    border-bottom: 1px solid rgb(0,0,0,.1);
+    margin-top: 10px;
+}
+
+.contactHover:hover {
+    cursor: pointer;
+    color:#ff214f;
+    
+}
+
+.seperator:hover { 
+    cursor: pointer; 
+    color: #ff214f;
+    border-bottom:2px solid rgba(0,0,0.5);
+}
+
+.sideBarText { 
+    font-weight: 600;
+    margin-top:15px;
+}
+
+.footer-socials {
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon { 
+    padding: 10px;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+    color: #ff214f;
+}
+
+.container-handsome { 
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+.container-image { 
+   position: relative;
+   width: 220px;
+   height: 220px;
+   display: inline-block;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   border: solid 10px rgba(0,0,0,.4);
+   border-radius: 100%;
+}
+
+.image-handsome {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 100%;
+}
+
+.container-name {
+    text-align: center;
+    margin-top: -90px;
+}
+
+.name-text {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.colored-text {
+    text-transform: uppercase;
+    color: #ff214f;
+}
+
+.typistText {
+    font-size: 25px;
+    font-weight: 300;
+}
