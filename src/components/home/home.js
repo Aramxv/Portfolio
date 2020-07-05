@@ -11,7 +11,7 @@ class HomePage extends Component{
     constructor(props){
         super(props);
         this.state = {
-            typistArr : ["I am a Web Developer","I am a Mobile Developer","I am a Pet Lover"],
+            typistArr : ["I am a Web Developer","I am a Fresh Graduate","I am a Fast Learner"],
             index:0,
         }
         
